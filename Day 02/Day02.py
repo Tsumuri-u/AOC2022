@@ -40,7 +40,6 @@ def partOne():
                 score += 6
     print(score)
 
-
 def partTwo():
     score = 0
     for i in range(len(opponentPlay)):
@@ -66,6 +65,7 @@ def partTwo():
             else:
                 score += 7
     print(score)
+
 if __name__ == "__main__":
     setup()
     partOne()
